@@ -104,7 +104,7 @@ html {
 body {
   font-family: 'Source Sans Pro', sans-serif;
   padding: 2em;
-  font-size: 1.25em;
+  font-size: 1em;
   height: 100%;
 }
 
@@ -116,11 +116,11 @@ body {
 
 .div-1, .div-2, .div-3 {
   align-items: center;
-  background-color: #f16059;
+  background-color: teal;
   color: #fff;
   display: flex;
-  font-size: 1.6em;
-  height: 300px;
+  font-size: 1em;
+  height: 50%;
   justify-content: center;
   line-height: 1.5em;
   width: 30%;
