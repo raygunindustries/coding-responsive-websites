@@ -97,15 +97,19 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-html {}
+.content-wrapper {
+  width: 90%;
+  margin: 50px 0;
+}
 
-body {}
+body {
+}
 
 h1,h2,h3,h4 {}
 
 p {}
 
-.content-wrapper {}
+
 
 /* -------------------- Base Header - Footer Styles -------------------- */
 
@@ -117,6 +121,7 @@ header, footer {
 }
 
 header {
+  padding: 15px 0;
 }
 
 header .content-wrapper {
@@ -124,27 +129,53 @@ header .content-wrapper {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
+  margin: 0;
+  width: 100%;
 }
 
 header a {}
 
-.header-divider{}
+header .header-divider {
+  height: 1px;
+  margin: 10px 0 20px 0;
+  width: 100%;
+}
 
 header nav {
   align-items: center;
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
+  width: 60%;
 }
 
 header nav ul {
   display: flex;
   justify-content: space-around;
+  padding: 0;
+  width: 100%;
 }
 
 header nav ul li {}
 
 header nav ul a {}
+
+footer {
+  flex-direction: column;
+}
+
+footer p {
+  padding: 0;
+}
+
+footer .contact {
+  margin-bottom: 50px;
+}
+
+footer .content-wrapper {
+  width: 55%;
+  margin: 50px 0;
+}
 
 footer .social {
   align-items: center;
@@ -162,6 +193,10 @@ footer .social-icons p {
   align-items: center;
   display: flex;
   justify-content: center;
+}
+
+footer .copyright {
+  margin: 20px 0;
 }
 
 /* -------------------- Mobile Styles - Homepage -------------------- */
@@ -197,7 +232,8 @@ header nav ul a {}
   justify-content: center;
 }
 
-.hero-area h1 {}
+.hero-area h1 {
+}
 
 /* Aside */
 
@@ -228,7 +264,17 @@ aside {
   justify-content: center;
 }
 
-.features h2 {}
+.features h2 {
+  margin-bottom: 60px;
+}
+
+.features .content-wrapper {}
+
+.features .features h2 {}
+
+.features p {
+  padding: 0;
+}
 
 .features .features-items {
   align-items: center;
@@ -237,11 +283,18 @@ aside {
   justify-content: center;
 }
 
-.fontawesome-icon {}
+.features article {
+  margin: 30px 0;
+  width: 50%;
+}
 
-.features-item-description {}
+.features .fontawesome-icon {}
 
-.features-items p {}
+.features .features-item-description {}
+
+.features .features-items p {
+
+}
 
 /* Reviews */
 
@@ -251,15 +304,24 @@ aside {
   justify-content: center;
 }
 
-.reviews h2 {}
+.reviews h2 {
+  margin-bottom: 40px;
+}
 
-.reviews h3 {}
+.reviews h3 {
+  margin: 20px 0;
+  width: 50%;
+}
 
 .reviews p {}
 
 /* Footer */
 
 footer {}
+
+footer .content-wrapper {
+}
+
 
 .footer-content {}
 
@@ -317,7 +379,17 @@ footer {}
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
+  margin: 50px 0 0 0;
 }
+
+.faq h2 {
+  margin-bottom: 40px;
+}
+
+.faq-content {
+  margin-bottom: 50px;
+}
+
 
 /* ==========================================================================
    Helper classes
