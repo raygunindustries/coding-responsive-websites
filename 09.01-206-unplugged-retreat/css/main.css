@@ -147,11 +147,11 @@ textarea {
  }
 
  img {
-
+   width: 100%;
  }
 
  figure {
-
+   margin: 0;
  }
 
  address {
@@ -184,6 +184,14 @@ header .content-wrapper {
   justify-content: center;
   margin: 0;
   width: 100%;
+}
+
+header figure {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
 }
 
 header a {}
@@ -266,6 +274,8 @@ footer .copyright {
 /* Hero Area */
 
 .hero-area {
+  background: url('../img/hero-image.jpg') center no-repeat #7ea986;
+  background-size: cover;
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
@@ -324,6 +334,8 @@ input[type=button] {
 /* Features */
 
 .features {
+  background: url('../img/features-image.jpg') center no-repeat #7ea986;
+  background-size: cover;
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
@@ -591,11 +603,6 @@ footer .content-wrapper {
     width: 20%;
   }
 
-/*  header nav ul {
-    justify-content: flex-end;
-    width: 50%;
-  }
-*/
   header nav ul {
     justify-content: space-between;
   }
@@ -644,16 +651,17 @@ footer .content-wrapper {
   }
 
   /* Reviews */
+
   .reviews article {
     display: flex;
     justify-content: space-between;
-    width: 40%;
   }
 
   .reviews h2 {
     width: 90%;
   }
 
+  .reviews article figure,
   .reviews article div {
     width: 49%;
   }
@@ -697,7 +705,7 @@ footer .content-wrapper {
     width: 40%;
   }
 
-  .contact-section, .content-wrapper h2 {
+  .contact-section .content-wrapper h2 {
     width: 40%;
   }
 
@@ -740,6 +748,12 @@ footer .content-wrapper {
 
   p {
     font-size: 1.125em;
+  }
+
+  /* Header */
+
+  header figure {
+    width: 22%;
   }
 
   /* Hero */
