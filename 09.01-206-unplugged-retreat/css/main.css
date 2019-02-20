@@ -114,6 +114,8 @@ textarea {
  ul,
  ol {
   list-style-type: none;
+  margin: 0;
+  padding: 0;
  }
 
  a {
@@ -183,7 +185,6 @@ header .content-wrapper {
   flex-flow: row wrap;
   justify-content: center;
   margin: 0;
-  width: 100%;
 }
 
 header figure {
@@ -193,8 +194,6 @@ header figure {
   align-items: center;
   flex-flow: row wrap;
 }
-
-header a {}
 
 header .header-divider {
   background-color: #3a3a3a;
@@ -221,25 +220,17 @@ header nav ul {
   width: 100%;
 }
 
-header nav ul li {}
-
-header nav ul a {}
+header nav ul li {
+  font-size: 1.125em;
+}
 
 footer {
   flex-direction: column;
   text-align: center;
 }
 
-footer h4 {
-  width: 100%;
-}
-
 footer p {
   padding: 0;
-}
-
-footer .contact {
-  margin-bottom: 50px;
 }
 
 footer .content-wrapper {
@@ -247,10 +238,8 @@ footer .content-wrapper {
   margin: 50px 0;
 }
 
-footer .social {
-  align-items: center;
-  display: flex;
-  justify-content: space-between;
+footer .contact {
+  margin-bottom: 50px;
 }
 
 footer .social-icons {
@@ -261,8 +250,16 @@ footer .social-icons {
 
 footer .social-icons p {
   align-items: center;
+  background-color: #527158;
+  border-radius: 50%;
   display: flex;
+  height: 40px;
   justify-content: center;
+  width: 40px;
+}
+
+footer .social-icons p i {
+  font-size: 1.3125em;
 }
 
 footer .copyright {
@@ -398,36 +395,6 @@ input[type=button] {
 
 .reviews p {}
 
-/* Footer */
-
-footer {}
-
-footer .content-wrapper {
-}
-
-
-.footer-content {}
-
-.contact {}
-
-.contact h4 {}
-
-.contact p {}
-
-.social {}
-
-.social h4 {}
-
-.social-icons {}
-
-.social-icons p {}
-
-.social-icons a {}
-
-.copyright {}
-
-.copyright p {}
-
 /* ==========================================================================
    About Page
   ========================================================================== */
@@ -455,7 +422,6 @@ footer .content-wrapper {
   top: 0;
   width: 100%;
 }
-
 
 .contact-section {
   align-items: center;
@@ -692,19 +658,34 @@ footer .content-wrapper {
 }
 
   /* Footer */
-  footer-content {
-    align-items: center;
-    display: flex;
-    justify-content: space-between;
+  footer .content-wrapper {
+    margin: 100px 0;
+    width: 65%;
   }
 
-  footer .content-wrapper {
-    width: 65%;
-    margin: 100px 0;
+  footer .footer-content {
+    align-items: center;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
   }
 
   footer .contact {
     margin-bottom: 0;
+  }
+
+  footer h4 {
+    font-size: 1.5em;
+    margin-bottom: 40px;
+  }
+
+  footer p {
+      line-height: 1.285;
+  }
+
+  footer .social-icons {
+    justify-content: space-between;
+    width: 12.5em;
   }
 
   footer .copyright {
