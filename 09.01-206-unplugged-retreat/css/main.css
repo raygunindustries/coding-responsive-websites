@@ -347,8 +347,6 @@ input[type=button] {
 
 .features .content-wrapper {}
 
-.features .features h2 {}
-
 .features p {
   padding: 0;
   text-align: center;
@@ -364,6 +362,11 @@ input[type=button] {
 .features article {
   margin: 30px 0;
   width: 50%;
+}
+
+.features i {
+	font-size: 3.75em;
+  margin-bottom: 40px;
 }
 
 .features .fontawesome-icon {}
