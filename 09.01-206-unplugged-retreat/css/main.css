@@ -276,9 +276,7 @@ footer .copyright {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
-}
-
-.hero-area h1 {
+  min-height: 500px;
 }
 
 /* Aside */
@@ -290,18 +288,6 @@ aside {
   flex-flow: row wrap;
   justify-content: center;
 }
-
-.form-description {}
-
-.form-description h3 {}
-
-.form-description p {}
-
-.form {}
-
-.form h3 {}
-
-.form input {}
 
 aside .form {
   margin-top: 30px;
@@ -342,13 +328,6 @@ input[type=button] {
   margin-bottom: 60px;
 }
 
-.features .content-wrapper {}
-
-.features p {
-  padding: 0;
-  text-align: center;
-}
-
 .features .features-items {
   align-items: center;
   display: flex;
@@ -366,12 +345,9 @@ input[type=button] {
   margin-bottom: 40px;
 }
 
-.features .fontawesome-icon {}
-
-.features .features-item-description {}
-
-.features .features-items p {
-
+.features p {
+  margin: 0;
+  text-align: center;
 }
 
 /* Reviews */
@@ -392,8 +368,6 @@ input[type=button] {
   margin: 20px 0;
   width: 50%;
 }
-
-.reviews p {}
 
 /* ==========================================================================
    About Page
@@ -565,10 +539,12 @@ input[type=button] {
 
   h2 {
     font-size: 2.25em;
+    line-height: 1.333;
   }
 
   h3 {
     font-size: 1.5em;
+    line-height: 1.25;
   }
 
   /* Header */
@@ -600,12 +576,12 @@ input[type=button] {
   /* Hero Area */
   .hero-area h1 {
     font-size: 3em;
+    line-height: 1;
     margin: 0;
   }
 
   /* Aside */
   aside .content-wrapper {
-    align-items: center;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
@@ -621,7 +597,6 @@ input[type=button] {
   /* Features */
   .features h2 {
     margin: 0 20px 20px 0;
-    width: 100%;
   }
 
   .features article {
@@ -754,12 +729,6 @@ input[type=button] {
 
   p {
     font-size: 1.125em;
-  }
-
-  /* Header */
-
-  header figure {
-    width: 22%;
   }
 
   /* Hero */
