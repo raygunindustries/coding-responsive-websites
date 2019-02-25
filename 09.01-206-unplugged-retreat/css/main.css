@@ -339,7 +339,7 @@ input[type=button] {
 
 .features article {
   margin: 30px 0;
-  width: 50%;
+  width: 55%;
 }
 
 .features i {
@@ -611,6 +611,10 @@ input[type=button] {
 
   .features .features-item-description {
     width: 50%;
+  }
+
+  .features i {
+    margin-bottom: 30px;
   }
 
   /* Reviews */
