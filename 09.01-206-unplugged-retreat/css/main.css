@@ -232,7 +232,7 @@ footer {
 }
 
 footer p {
-  padding: 0;
+  margin: 0;
 }
 
 footer .content-wrapper {
@@ -438,6 +438,11 @@ input[type=button] {
 
 .faq-content {
   margin-bottom: 50px;
+}
+
+.faq-content h4 {
+  line-height: 1.333;
+  font-weight: 700;
 }
 
 
@@ -715,6 +720,11 @@ input[type=button] {
   .faq h2 {
     width: 100%;
   }
+
+  .faq h4,
+  .faq p {
+      font-size: .875em;
+  }
 }
 
 
@@ -797,6 +807,12 @@ FAQ Page
 
   .faq-content {
     flex-basis: 35%;
+  }
+
+  .faq h4,
+  .faq p {
+      font-size: 1.125em;
+      line-height: 1;
   }
 }
 
