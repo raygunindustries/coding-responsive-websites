@@ -407,10 +407,6 @@ input[type=button] {
   justify-content: center;
 }
 
-.contact-section .contact-wrapper {
-  padding: 50px 20px;
-}
-
 .contact-content p {
   margin: 0;
 }
@@ -687,19 +683,22 @@ input[type=button] {
     width: 40%;
   }
 
-
   .map figure {
     padding-bottom: 58.5%;
   }
 
   .contact-section .content-wrapper h2 {
-    width: 40%;
+    width: 80%;
   }
 
   .contact-content {
     align-items: flex-start;
     display: flex;
     justify-content: space-between;
+  }
+
+  .contact-content h4 {
+    font-size: 1.5em;
   }
 
 /* ==========================================================================
@@ -782,6 +781,10 @@ About Page
 
   .contact-section .content-wrapper h2 {
     margin-bottom: 40px;
+  }
+
+  .contact-content h4 {
+    font-size: 1.875em;
   }
 
 /* ==========================================================================
